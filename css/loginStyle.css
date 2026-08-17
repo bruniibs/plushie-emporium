@@ -30,5 +30,39 @@ body {
 }
 
 .form-box {
-    
+    right: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: var(--babyblue);
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin: -10px 0;
+}
+
+.input-box {
+    position: relative;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 13px;
+    background: #eee;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
 }
